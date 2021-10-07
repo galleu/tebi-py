@@ -14,5 +14,5 @@ print(file.content) # the content of hi.txt
 
 
 # You can also set auth here, if you don't set it
-tebi.PutObject("hay.txt", b"Hay there!", auth="TB-PLAIN: <KEY>:<SECRET>")
+tebi.PutObject("hay.txt", b"Hay there!", auth="TB-PLAIN <KEY>:<SECRET>")
 ```
